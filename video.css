@@ -1,0 +1,107 @@
+p {
+    font-family:Roboto;
+}
+  
+.video-pre1, .video-pre2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.thumbnail1, .thumbnail2, .video-thum1, .video-thum2 {
+    width: 100%;
+    display: block;
+}
+.search {
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex:1;
+
+}
+.a1, .a2 {
+    margin-top: 20px;
+    width: 100%;
+    color: black;
+    text-decoration: solid;
+    font-family:Roboto;
+    font-size:medium;
+    font-weight: 500;
+}
+.b1, .b2, .c1, .c2 {
+    font-family: Roboto;
+    font-size:medium;
+    font-weight: 500;
+    color:rgb(63, 60, 60);
+
+}
+.channel1, .channel2 {
+    display: grid;
+    width: 60px;
+    grid-template-columns: 50px 1fr;
+}
+.channellogo1, .channellogo2 {
+    width: 45px;
+    border-radius: 45px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.video-details {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 8px; 
+    column-gap: 8px;
+    background-color: rgb(241, 241, 241);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: 0px;;
+
+}
+.video-thum1{
+    position: relative;
+}
+.time1{
+    position: absolute;
+    background-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 11px;
+    bottom: 10px;
+    right:10px;
+    border-radius: 2px;
+    color: white;
+}
+.time2{
+    position: absolute;
+    background-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 11px;
+    bottom: 10px;
+    right:10px;
+    border-radius: 2px;
+    color: white;
+}
+.video-thum2{
+    position: relative;
+}
+.time2{
+    position: absolute;
+}
+.link1{
+   margin-top: 17px;
+}

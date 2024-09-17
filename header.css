@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    padding-top: 70px;
+    padding-left: 85px;
+}
+.header{
+    display: flex;
+    height:71px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    margin: 0px;
+    left:0;
+    right:0;
+    background-color: white;
+    z-index: 100;
+    border-bottom-width:1px ;
+    border-bottom-style: solid;
+    border-color: rgb(214, 211, 211);
+  
+    
+
+}
+.left{
+   
+    display:flex;
+    width:150px;
+    align-items: center;
+}
+.hamburger{
+    height: 24px;
+    margin-left: 30px;
+    margin-right:25px
+}
+.youtubeicon{
+    height:24px;
+}
+.center{
+    display: flex;
+    flex:1;
+    max-width: 500px;
+    margin-left: 35px;
+    margin-right: 25px;
+    align-items: center;
+}
+.search{
+    flex:1;
+    height: 40px;
+    border-radius: 1px;
+    border-color: rgb(151, 150, 150);
+    border-width: 1px;
+    font-size:18px;
+    border-style: solid;
+    padding-left: 15px;
+    color:gray
+}
+.search::placeholder{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.searchbutton{
+    width:65px;
+    height:44px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 2px;
+    border-width: 0.5px;
+    
+}
+.searchicon{
+    height:25px;
+    color: rgb(192, 192, 192);
+    padding-top: 2px;
+}
+.searchbutton:hover{
+    background-color: rgb(182, 180, 180);
+}
+.micbutton{
+    margin-left: 10px;
+    height:42px;
+    width:44px;
+    border-radius: 57px;
+    position: relative;
+    border:none;
+    background-color: rgb(192, 192, 192);
+}
+.mic{
+    height:23px;
+}
+.right{
+    width:200px;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 20px;
+   flex-shrink: 0;
+}
+.uploadicon{
+    height:24px;
+
+}
+.appsicon{
+    height: 24px;
+}
+.profile{
+    height:31px;
+    border-radius: 20px;
+}
+.notification{
+    height:24px
+}
+.not1{
+    position: relative;
+}
+.number{
+    position:absolute;
+    background-color: rgb(187, 14, 14);
+    height:8px;
+    
+    padding-left: 5px;
+    padding-bottom: 7px;
+    padding-top: 2px;
+    border-radius: 25px;
+    
+    width: 10px;
+    top:-3px;
+    right:-3px;
+    font-size: 12px;
+    color: white;
+}
+.uploadicon{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.uploadcont .uploadhover,
+ .appscont .appshover,
+ .not1 .notihover{
+    position: absolute;
+    background-color: rgb(112, 111, 111);
+    font-size: 12px;
+    color:white;
+    border-radius: 2px;
+   padding: 2px 2px 2px 2px;
+   
+    bottom: -8px;
+    opacity: 0;  
+    transition: opacity 0.15;
+    pointer-events: none;
+
+    
+}
+.uploadcont:hover .uploadhover,
+.appscont:hover .appshover,
+.not1:hover .notihover{
+    opacity: 1;
+    cursor: pointer;
+}
